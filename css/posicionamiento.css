@@ -1,0 +1,27 @@
+.box{
+    display: inline-block; /*controla estructuras de los elementos*/
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: pink; /*Fondo*/
+    color: white;/*Color texto*/
+}
+
+#two{
+    position: absolute; /*static, relative, sticky, absolute y */
+    top: 20px; /*espacios*/
+    left: 20px;
+    background: palevioletred;
+}
+
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow: visible; /*auto, visible, hidden, scrooll, contenido de la paguina */
+    padding-left: 150px; /*espacio entre el contenido y su */
+}
+#tree{
+    position: hidden;
+    top: 200px;
+    left: 300px;
+    background-color: blueviolet;
+}
